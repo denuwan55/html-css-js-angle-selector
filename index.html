@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angle Selector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Angle Selector</h1>
+
+    <!-- Text Box -->
+    <label for="angleInput">Angle (0 - 360):</label>
+    <input type="number" id="angleInput" min="0" max="360" value="0"><br><br>
+
+    <!-- Slider -->
+    <label for="angleSlider">Slider:</label>
+    <input type="range" id="angleSlider" min="0" max="360" value="180" style="width: 300px;"><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Common Values:</label><br>
+    <input type="radio" name="commonValues" value="0" id="radio0"><label for="radio0">0</label><br>
+    <input type="radio" name="commonValues" value="45" id="radio45"><label for="radio45">45</label><br>
+    <input type="radio" name="commonValues" value="60" id="radio60"><label for="radio60">60</label><br>
+    <input type="radio" name="commonValues" value="90" id="radio90"><label for="radio90">90</label><br>
+    <input type="radio" name="commonValues" value="180" id="radio180"><label for="radio180">180</label><br>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
